@@ -348,3 +348,20 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+FRONT/.browserslistrc
+FRONT/angular.json
+FRONT/package.json
+FRONT/README.md
+FRONT/src/app/app-routing.module.ts
+FRONT/src/app/app.component.ts
+FRONT/src/app/app.module.ts
+FRONT/src/assets/.gitkeep
+FRONT/src/environments/environment.prod.ts
+FRONT/src/environments/environment.ts
+FRONT/src/favicon.ico
+FRONT/src/index.html
+FRONT/src/main.ts
+FRONT/src/polyfills.ts
+FRONT/src/styles.css
+FRONT/tsconfig.app.json
+FRONT/tsconfig.json

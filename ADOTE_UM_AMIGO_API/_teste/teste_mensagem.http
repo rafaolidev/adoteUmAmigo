@@ -1,0 +1,30 @@
+###
+POST https://localhost:5001/api/mensagem/create
+Content-Type: application/json
+
+{
+    "id_Sender": 2,
+    "id_Receiver": 4,
+    "corpo": "Eai como vai voce"
+}
+
+###
+GET https://localhost:5001/api/mensagem/list
+
+###
+GET https://localhost:5001/api/mensagem/listbyid/2
+
+###
+DELETE https://localhost:5001/api/mensagem/deleteid/2
+
+###
+DELETE https://localhost:5001/api/mensagem/delete/
+
+###
+PUT https://localhost:5001/api/mensagem/update/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "corpo": "Eai como vai Mameluco"
+}

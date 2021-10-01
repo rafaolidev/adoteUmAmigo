@@ -1,0 +1,37 @@
+###
+POST https://localhost:5001/api/tutor/create
+Content-Type: application/json
+
+{
+    "id": 0,
+    "nome": "Rafael",
+    "senha": 2355,
+    "cpf": 1455256,
+    "telefone": 22554,
+    "endereco": "rua Bliblibli"
+}
+
+###
+GET https://localhost:5001/api/tutor/list
+
+###
+GET https://localhost:5001/api/tutor/listbyid/2
+
+###
+DELETE https://localhost:5001/api/tutor/deleteid/2
+
+###
+DELETE https://localhost:5001/api/tutor/delete/
+
+###
+PUT https://localhost:5001/api/tutor/update/
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nome": "Amanda",
+    "senha": 2355,
+    "cpf": 1455256,
+    "telefone": 22554,
+    "endereco": "rua Bliblibli"
+}
