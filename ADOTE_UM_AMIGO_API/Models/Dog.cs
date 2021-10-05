@@ -17,8 +17,9 @@ namespace ADOTE_UM_AMIGO_API.Models
         public string Raca { get; set; }
         public int Status { get; set; }
         public DateTime CriadoEm { get; set; }
-        public int Dono_Id { get; set; }
+        public Tutor Tutor { get; set; }
+        public int TutorId { get; set; }
         public override string ToString() =>
-            $"Nome: {Nome} | Raça: {Raca} | Criado em: {CriadoEm} | Colocado para adoção por{Dono_Id}";
+            $"Nome: {Nome} | Raça: {Raca} | Criado em: {CriadoEm}";
     }
 }

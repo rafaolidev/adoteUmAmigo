@@ -3,7 +3,6 @@ POST https://localhost:5001/api/tutor/create
 Content-Type: application/json
 
 {
-    "id": 0,
     "nome": "Rafael",
     "senha": 2355,
     "cpf": 1455256,

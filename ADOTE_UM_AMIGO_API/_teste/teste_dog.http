@@ -3,11 +3,12 @@ POST https://localhost:5001/api/dog/create
 Content-Type: application/json
 
 {
-    "nome": "Almofadinhas",
-    "idade": 1.2,
-    "raca": "Labrador",
+    "nome": "Athos",
+    "idade": 1,
+    "raca": "Bulldog",
     "dono_Id": 2,
-    "status": 1
+    "status": 1,
+    "tutorid":1
 }
 
 ###

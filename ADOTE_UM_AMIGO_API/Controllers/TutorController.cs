@@ -24,7 +24,7 @@ namespace ADOTE_UM_AMIGO_API.Controllers
         [HttpPost]
         [Route("create")]
         public async Task<IActionResult> CreateAsync([FromBody] Tutor tutor)
-        {
+        {   
             _context.Tutores.Add(tutor);
             await _context.SaveChangesAsync();
             return Created("Cadastro Realizado com sucesso", tutor);
@@ -33,7 +33,8 @@ namespace ADOTE_UM_AMIGO_API.Controllers
         // GET: api/tutor/list
         [HttpGet]
         [Route("list")]
-        public async Task<IActionResult> ListAsync() => Ok(await _context.Tutores.ToListAsync());
+        public async Task<IActionResult> ListAsync() => 
+        Ok(await _context.Tutores);
 
         // GET: api/tutor/getbyid/5
         [HttpGet]

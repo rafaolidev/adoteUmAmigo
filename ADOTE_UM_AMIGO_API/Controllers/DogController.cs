@@ -24,6 +24,7 @@ namespace ADOTE_UM_AMIGO_API.Controllers
         [Route("create")]
         public async Task<IActionResult> CreateAsync([FromBody] Dog dog)
         {
+            dog.Tutor = _context.Tutores.Find(dog.TutorId);
             _context.Dogs.Add(dog);
             await _context.SaveChangesAsync();
             return Created("", dog);
